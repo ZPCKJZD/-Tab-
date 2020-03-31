@@ -1,0 +1,28 @@
+$value:200px;
+body{
+    background-color: #f00;
+    color: #f00;
+    background: url(./../img/2.jpg);
+}
+div#app div{
+    width: $value;
+    height:$value ;
+    background-color: #999;
+    color: #09f;
+}
+@font-face {
+    font-family: 'austie_bost_wibbly-webfont';
+    src: url('../fonts/austie_bost_wibbly-webfont.ttf') format('truetype'),
+    url('../fonts/austie_bost_wibbly-webfont.woff2') format('woff2'),
+    url('../fonts/austie_bost_wibbly-webfont.woff') format('woff'),
+    url('../fonts/austie_bost_wibbly-webfont.eot') format('embedded-opentype');
+    /* Add other formats as you see fit */
+    }
+    span{
+    font-family: 'austie_bost_wibbly-webfont';
+    font-size: 36px;
+}
+.special{
+    color: #f00;
+}
+    
